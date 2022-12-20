@@ -1,0 +1,14 @@
+package com.coffee.service;
+
+import java.util.List;
+
+import com.coffee.entity.Product;
+
+/**
+ * @author Nguyen Phuc Thinh
+ */
+public interface ProductService {
+
+	List<Product> getAll();
+
+}
